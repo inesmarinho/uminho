@@ -18,12 +18,12 @@ useful somehow.
 
 ### **1st year**
 
-##### 1st semester
+* ##### 1st semester
   - [Software Labs I](/1st/1/Laboratórios%20de%20Informática%20I/Project):
 This project consists in a game of cars. It has been developed in the Haskell
 programming language.
 
-##### 2nd semester
+* ##### 2nd semester
   - [Software Labs II](/1st/2/Laboratórios%20de%20Informática%20II/Project):
 
 <!--
@@ -55,18 +55,13 @@ programming language.
 
 ## Contributors
 
-![Nelson Estevão][nelson-pic] | ![Pedro Ribeiro][pedro-pic] | ![Rui Mendes][rui-pic]
-:---: | :---: | :---:
-[Nelson Estevão][nelson] | [Pedro Ribeiro][pedro] | [Rui Mendes][rui]
+* [Nelson Estevão][nelson]
+* [Pedro Ribeiro][pedro]
+* [Rui Mendes][rui]
 
 [nelson]: https://github.com/nelsonmestevao
-[nelson-pic]: https://github.com/nelsonmestevao.png?size=120
-
 [pedro]: https://github.com/pedroribeiro22
-[pedro-pic]: https://github.com/pedroribeiro22.png?size=120
-
 [rui]: https://github.com/ruimendes29
-[rui-pic]: https://github.com/ruimendes29.png?size=120
 
 <div align="center">
 <sub>2017 - PRESENT</sub>

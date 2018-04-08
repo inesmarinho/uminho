@@ -8,7 +8,6 @@
 ----
 
 ## 1º Ano
-
 * [Álgebra Linear](/1st/1/Álgebra Linear/Notes/§ Álgebra Linear.md)
 * [Cálculo](/1st/1/Cálculo/Notes/§ Cálculo.md)
 * [Elementos de Engenharia de Sistemas](/1st/1/Elementos de Engenharia de Sistemas/Notes/§ Elementos de Engenharia de Sistemas.md)
