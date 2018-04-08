@@ -1,15 +1,5 @@
 # 📚 Laboratórios de Informática I
 
-#### Objetivos de ensino
-
-Aprendizagem prática de conceitos de informática básica. Contacto com um sistema operativo programável. Contacto com um sistema para produção de documentação de qualidade. Experiência e valorização do trabalho em grupo.
-
-#### Resultados de aprendizagem
-
-Aquisição de competências em trabalho cooperativo.
-Prática de desenvolvimento de projectos de softwares em grupo.
-Prática com sistemas de produção de documentação de qualidade.
-
 #### Pré-requisitos formais
 
 *Não aplicável*
@@ -30,10 +20,3 @@ Esta é a primeira de uma série de unidades curriculares designadas por Laborat
 - Introduction to Functional Programming using Haskell. Richard Bird. Prentice-Hall, 1998.
 - Haskell: the craft of functional programming. Simon Thompson. Addison-Wesley, 1999.
 
-#### Métodos de ensino
-
-Breve sessão introdutória no início de cada aula seguida de prática laboratorial com base em guiões.
-
-#### Métodos de avaliação
-
-Avaliação por projecto (com vários componentes de avaliação, incluindo alguns de avaliação contínua).
