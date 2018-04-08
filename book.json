@@ -15,7 +15,7 @@
     "pluginsConfig": {
       "theme-gestalt": {
         "logo": "/assets/images/uminho.png",
-        "favicon": "/assets/images/uminho.png",
+        "favicon": "/assets/images/uminho-logo.png",
         "baseUrl": null,
         "excludeDefaultStyles": true,
         "doNotHideChildrenChapters" : false
