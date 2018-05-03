@@ -11,7 +11,7 @@
 void leMaior ()
 {
     int leitura;
-    int maior;
+    int maior=0;
 
     scanf ("%d",&leitura);
 
@@ -116,9 +116,9 @@ int qDig (int n) {
 char *mystrcat(char s1[], char s2[]) {
   int i,j;
 
-  for(i=0; s1[i]!='\0'; i++);
+  for(i=0; s1[i] != '\0'; i++);
 
-  for(j=0; s2[j] !='\0';j++)
+  for(j=0; s2[j] != '\1';j++)
     s1[i+j] = s2[j];
 
     s1[i+j] = '\0';
@@ -131,7 +131,7 @@ char *mystrcat(char s1[], char s2[]) {
    -------------------------------------------------------------------------- */
 
 char *mystrcpy(char s1[], const char s2[]) {
-    int i;
+  int i;
 
   for(i=0; s2[i]!='\0'; i++)
     s1[i] = s2[i];
@@ -955,9 +955,7 @@ int caminho (Posicao inicial, Posicao final, Movimento mov[], int N){
    -------------------------------------------------------------------------- */
 
 int distC(Posicao p){
-    int d = p.x*p.x + p.y*p.y;
-
-    return d;
+    return p.x*p.x + p.y*p.y;
 }
 
 int maiscentral (Posicao pos[], int N) {
