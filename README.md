@@ -1,4 +1,4 @@
-[gitbook]: https://nelsonmestevao.gitbooks.io/uminho/
+[gitbook]: https://books.estevao.xyz/uminho
 
 <div align="center">
   <img src="https://www.eng.uminho.pt/SiteAssets/Logo.PNG" alt="University of Minho">
@@ -11,8 +11,9 @@
 </div>
 
 This repository contains my class notes as well as the projects I developed
-during my degree. You can read all my notes [here][gitbook]. I hope you find it
-useful somehow.
+during my degree. You can read all my notes [here][gitbook]. The projects are
+git submodules, so you want to remember that if you clone the repository. I hope
+you find it useful somehow.
 
 ## List of Projects
 
@@ -25,33 +26,9 @@ programming language.
 
 * ##### 2nd semester
   - [Software Labs II](/1st/2/Laboratórios%20de%20Informática%20II/Project):
+This project is a board game build in C. It also contains a program able to
+generate boards with only one solution.
 
-<!--
-### **2nd year**
-##### 1st semester
-  - []()
-
-##### 2nd semester
-  - [Software Labs III]():
-  - []()
-
-### **3rd year**
-
-##### 1st semester
-  - []()
-
-##### 2nd semester
-  - [Software Labs IV]()
-  - []()
-
-### **4th year**
-
-##### 1st semester
-  - []()
-
-##### 2nd semester
-  - []()
--->
 
 ## Contributors
 
@@ -64,5 +41,5 @@ programming language.
 [rui]: https://github.com/ruimendes29
 
 <div align="center">
-<sub>2017 - PRESENT</sub>
+  <sub>2017 - PRESENT</sub>
 </div>

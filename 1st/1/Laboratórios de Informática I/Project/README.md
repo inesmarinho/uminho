@@ -1,44 +1,32 @@
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/en/b/b9/Micro_Machines_logo.png" alt="Micro Machines">
-</div>
+[micro-machines]: https://bitbucket.org/mieiuminho/micro-machines
+[li1-report]: https://bitbucket.org/mieiuminho/li1-report
 
-<br>
+# Software Labs I
 
-<div align="justify">
+This project is a cars game. Totally written using the functional programming
+language Haskell.
 
-No âmbito da Unidade Curricular de **Laboratórios de Informática I** foi
-requisitado a reprodução de um jogo já existente - *Micro Machines*. Esta UC
-insere-se no primeiro semestre do plano curricular do Mestrado Integrado em
-Engenharia Informática e serve de complemento prático à Unidade Curricular
-**Programação Funcional**.
+This was a two people group during the course. After the course was finished we
+got contributions from a new member.
 
-Este projeto foi realizado programando somente na linguagem *Haskell* que
-segue o paradigma funcional. Para realizar a componente gráfica do jogo foi
-usado o Gloss, um pacote presente na biblioteca *open source* do Hackage.
+### Content
 
-Durante o processo de desenvolvimento foi possível a consulta de um Sistema de
-Feedback criado pelos Docentes da cadeira. Este fornecia informação relativa à
-assertividade das tarefas submetidas a avaliação automática.
-
-O projeto usou o sistema de controlo de versões, *Subversion (SVN)*, que
-permitiu manter um registo das alterações feitas ao código, assim como,
-facilitar o trabalho em equipa. Além disso, possibilitou o uso de ferramentas
-de apoio como *Hlint*, *HPC* e *Homplexity* que nos davam
-sugestões para tornar o código mais simples e legível, indicavam a percentagem
-e cobertura dos testes e destacavam más práticas de programação,
-respectivamente.
-
-</div>
+1. [Micro Machines][micro-machines]
+2. [Report][li1-report]
 
 ## Team
 
-[![Nelson Estevão](https://github.com/nelsonmestevao.png?size=120)][nelson] | [![Pedro Ribeiro](https://github.com/pedroribeiro22.png?size=120)][pedro]
-:---: | :---:
-[Nelson Estevão][nelson] | [Pedro Ribeiro][pedro]
+![Nelson Estevão][nelson-pic] | ![Pedro Ribeiro][pedro-pic] | ![Rui Mendes][rui-pic]
+:---: | :---: | :---:
+[Nelson Estevão][nelson] | [Pedro Ribeiro][pedro] | [Rui Mendes][rui]
 
 [nelson]: https://github.com/nelsonmestevao
-[pedro]:  https://github.com/pedroribeiro22
+[nelson-pic]: https://github.com/nelsonmestevao.png?size=120
+[pedro]: https://github.com/pedroribeiro22
+[pedro-pic]: https://github.com/pedroribeiro22.png?size=120
+[rui]: https://github.com/ruimendes29
+[rui-pic]: https://github.com/ruimendes29.png?size=120
 
 <div align="center">
-<sub>October 2017 - December 2017</sub>
+  <sub>October 2017 - December 2017</sub>
 </div>

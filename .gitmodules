@@ -1,0 +1,15 @@
+[submodule "1st/1/Laboratórios de Informática I/Project/report"]
+	path = 1st/1/Laboratórios de Informática I/Project/report
+	url = git@bitbucket.org:mieiuminho/li1-report.git
+[submodule "1st/1/Laboratórios de Informática I/Project/micro-machines"]
+	path = 1st/1/Laboratórios de Informática I/Project/micro-machines
+	url = git@bitbucket.org:mieiuminho/micro-machines.git
+[submodule "1st/2/Laboratórios de Informática II/Project/report"]
+	path = 1st/2/Laboratórios de Informática II/Project/report
+	url = git@bitbucket.org:mieiuminho/li2-report.git
+[submodule "1st/2/Laboratórios de Informática II/Project/tic-tac-logic"]
+	path = 1st/2/Laboratórios de Informática II/Project/tic-tac-logic
+	url = git@bitbucket.org:mieiuminho/tic-tac-logic.git
+[submodule "1st/2/Laboratórios de Informática II/Project/tic-tac-logic-puzzles"]
+	path = 1st/2/Laboratórios de Informática II/Project/tic-tac-logic-puzzles
+	url = git@bitbucket.org:mieiuminho/tic-tac-logic-puzzles.git
