@@ -2,9 +2,7 @@
 
 ## Getting Started
 
-* [About this Book](README.md)
-* [Contributing](https://github.com/nelsonmestevao/uminho/CONTRIBUTING.md)
-
+* [About this GitBook](README.md)
 ----
 
 ## 1º Ano
