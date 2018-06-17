@@ -7,6 +7,7 @@
 ----
 
 ## 1º Ano
+
 * [Álgebra Linear](/1st/1/Álgebra Linear/Notes/§ Álgebra Linear.md)
 * [Cálculo](/1st/1/Cálculo/Notes/§ Cálculo.md)
 * [Elementos de Engenharia de Sistemas](/1st/1/Elementos de Engenharia de Sistemas/Notes/§ Elementos de Engenharia de Sistemas.md)
@@ -27,6 +28,12 @@
   4. [Funções](/1st/1/Tópicos de Matemática Discreta/Notes/4. Funções.md)
   5. [Relações Binárias](/1st/1/Tópicos de Matemática Discreta/Notes/5. Relações Binárias.md)
   6. [Grafos](/1st/1/Tópicos de Matemática Discreta/Notes/6. Grafos.md)
+* [Análise](/1st/2/Análise/Notes/§ Análise.md)
+* [Laboratórios de Informática II](/1st/2/Laboratórios de Informática II/Notes/§ Laboratórios de Informática II.md)
+* [Lógica](/1st/2/Lógica/Notes/§ Lógica.md)
+* [Programação Imperativa](/1st/2/Programação Imperativa/Notes/§ Programação Imperativa.md)
+* [Sistemas de Computação](/1st/2/Sistemas de Computação/Notes/§ Sistemas de Computação.md)
+* [Tópicos de Física Moderna](/1st/2/Tópicos de Física Moderna/Notes/§ Tópicos de Física Moderna.md)
 
 ----
 
