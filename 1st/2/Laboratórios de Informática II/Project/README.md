@@ -1,6 +1,6 @@
-[tic-tac-logic]: https://bitbucket.org/mieiuminho/micro-machines
-[tic-tac-logic-puzzles]: https://bitbucket.org/mieiuminho/tic-tac-logic-puzzles
-[li2-report]: https://bitbucket.org/mieiuminho/li2-report
+[tic-tac-logic]: https://gitlab.com/mieiuminho/LI2/tic-tac-logic
+[tic-tac-logic-puzzles]: https://gitlab.com/mieiuminho/LI2/tic-tac-logic-puzzles
+[report]: https://gitlab.com/mieiuminho/LI2/report
 
 # Software Labs II
 
@@ -14,7 +14,7 @@ create a program able to generate puzzles with only one solution as well.
 
 1. [Tic-Tac-Logic][tic-tac-logic]
 2. [Puzzles for Tic-Tac-Logic][tic-tac-logic-puzzles]
-3. [Report][li2-report]
+3. [Report][report]
 
 ## Team
 

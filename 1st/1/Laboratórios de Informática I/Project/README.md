@@ -1,5 +1,5 @@
-[micro-machines]: https://bitbucket.org/mieiuminho/micro-machines
-[li1-report]: https://bitbucket.org/mieiuminho/li1-report
+[micro-machines]: https://gitlab.com/mieiuminho/LI1/micro-machines
+[report]: https://gitlab.com/mieiuminho/LI1/report
 
 # Software Labs I
 
@@ -12,7 +12,7 @@ got contributions from a new member.
 ### Content
 
 1. [Micro Machines][micro-machines]
-2. [Report][li1-report]
+2. [Report][report]
 
 ## Team
 
