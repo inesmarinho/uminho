@@ -29,6 +29,21 @@ programming language.
 This project is a board game build in C. It also contains a program able to
 generate boards with only one solution.
 
+## Clone
+
+If you want to clone the repository alongside with all project just do it like
+this:
+
+```shell
+git clone --recurse-submodules git@github.com:nelsonmestevao/uminho.git
+```
+
+If you forgot to use `--recurse-submodules` you can just do this:
+
+```shell
+git submodule init
+git submodule update
+```
 
 ## Contributors
 
