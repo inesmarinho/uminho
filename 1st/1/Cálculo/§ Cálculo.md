@@ -10,7 +10,10 @@
 
 #### Programa sucinto
 
-Generalidades sobre funções reais de variável real. Limites e continuidade. Função inversa e composição de funções. Derivadas e aplicações. Primitivas. Integral de Riemann. Integrais impróprios. Séries numéricas e séries de potências.
+Generalidades sobre funções reais de variável real. Limites e continuidade.
+Função inversa e composição de funções. Derivadas e aplicações. Primitivas.
+Integral de Riemann. Integrais impróprios. Séries numéricas e séries de
+potências.
 
 #### Bibliografia essencial
 

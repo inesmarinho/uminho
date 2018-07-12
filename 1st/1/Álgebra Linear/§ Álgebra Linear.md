@@ -19,6 +19,8 @@
 
 #### Bibliografia essencial
 
-- “Introdução à Álgebra Linear”, Ana Paula Santana e João Filipe Queiró. Gradiva, Trajectos Ciência, 2010
-- “Introduction to Linear Algebra”, Serge Lang. Springer, Undergraduate Texts in Mathematics, 1985
+- “Introdução à Álgebra Linear”, Ana Paula Santana e João Filipe Queiró.
+Gradiva, Trajectos Ciência, 2010
+- “Introduction to Linear Algebra”, Serge Lang. Springer, Undergraduate Texts
+in Mathematics, 1985
 

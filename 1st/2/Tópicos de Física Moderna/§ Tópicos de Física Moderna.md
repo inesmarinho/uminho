@@ -2,7 +2,8 @@
 
 #### Pré-requisitos recomendados
 
-Conhecimentos adquiridos na disciplina de Físico-Química do ensino secundário.
+Conhecimentos adquiridos na disciplina de Físico-Química do ensino
+secundário.
 
 #### Programa sucinto
 
@@ -14,10 +15,13 @@ Conhecimentos adquiridos na disciplina de Físico-Química do ensino secundário
 
 #### Bibliografia essencial
 
-- Spacetime Physics, E. F. Taylor, J. A. Wheeler, W. H. Freeman and Co., Second edition 1992.
+- Spacetime Physics, E. F. Taylor, J. A. Wheeler, W. H. Freeman and Co.,
+Second edition 1992.
 
-- Introdução à Física Contemporânea, Ricardo M. Ribeiro, Editora Moinho Velho, 2010.
+- Introdução à Física Contemporânea, Ricardo M. Ribeiro, Editora Moinho
+Velho, 2010.
 
 - The Quantum World, Michel Le Bellac, World Scientific Publishing, 2014.
 
-- An Introduction to Modern Cosmology, Andrew Liddle, John Wiley & Sons, 1999.
+- An Introduction to Modern Cosmology, Andrew Liddle, John Wiley & Sons,
+1999.
