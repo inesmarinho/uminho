@@ -6,7 +6,7 @@ import Data.Maybe
 -- (2)
 
 length' :: [a] -> Int
-length' = foldr (\x -> (+) 1) 0
+length' = foldr (\_ -> (+) 1) 0
 
 reverse' :: [a] -> [a]
 reverse' [] = []
