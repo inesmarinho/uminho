@@ -1,6 +1,10 @@
+package test;
+
 import java.util.Scanner;
 
-public class Main {
+import ficha1.Ficha1;
+
+public class Ficha1Test {
   public static void main(String[] args) {
     Ficha1 f = new Ficha1();
     Scanner sc = new Scanner(System.in);
