@@ -2,7 +2,7 @@
 -- Cálculo de Programas                                            2018/2019 --
 -- Ficha 1: Revisões de Programação Funcional                                --
 -- ========================================================================= --
-module Ficha1 where
+module Ficha_1 where
 
 import CP
 import Data.Maybe
