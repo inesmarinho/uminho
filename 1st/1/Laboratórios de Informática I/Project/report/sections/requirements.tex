@@ -1,0 +1,126 @@
+\chapter{Análise de Requisitos}
+
+
+\section{Fase 1}
+\label{sec:analisefase1}
+
+A primeira fase encontrava-se divida em três tarefas. A Tarefa 1 tinha como
+objetivo definir a função \texttt{constroi}.
+
+\begin{lstlisting}[language=Haskell]
+constroi :: Caminho -> Mapa
+
+type Caminho = [Passo]
+
+data Mapa = Mapa (Posicao,Orientacao) Tabuleiro
+\end{lstlisting}
+
+Esta função recebe como único argumento um caminho, i.e. uma lista de passos, e
+devolve um mapa.
+
+A Tarefa 2 tinha por finalidade fazer a validação de mapas. A função
+\texttt{valida} tem como argumento um mapa e devolve True quando o mapa é válido
+e False quando não o é.
+
+\begin{lstlisting}[language=Haskell]
+ valida :: Mapa -> Bool
+\end{lstlisting}
+
+Esta validação segue determinados critérios pré-estabelecidos, sendo esses:
+
+\begin{itemize}
+\item
+  Existência de apenas um percurso, à exceção do qual todas as peças são
+  do tipo lava.
+\item
+  O percurso deve ser de natureza tal que partindo de uma peça com uma
+  determinada orientação se deva chegar à mesma peça com a mesma orientação.
+\item
+  A orientação inicial tem de ser compatível com a peça de partida.
+\item
+  As alturas entre as peças têm de ser compatíveis.
+\item
+  Todas as peças do tipo lava têm altura 0.
+\item
+  O mapa é sempre retangular e rodeado por lava, ou seja, a primeira e
+  ultima linha, assim como a primeira e última coluna são
+  necessariamente constituídas por peças do tipo lava.
+\end{itemize}
+
+A Tarefa 3 consistia em criar a função \texttt{movimenta}.
+
+\begin{lstlisting}[language=Haskell]
+ movimenta :: Tabuleiro -> Tempo -> Carro -> Maybe Carro
+\end{lstlisting}
+
+Esta função recebe um tabuleiro, o tempo de duração do movimento, o carro a
+movimentar e devolve \texttt{Nothing} caso tivesse morrido ou então o carro com
+a sua posição e vetor atualizado. No cálculo desta posição e vetor teve de ser
+tido em conta a mudança de peça e a validade das mesmas, os ricochetes em peças
+de altura superior à atual e movimentos inválidos que resultariam na morte do
+carro.
+
+
+\section{Fase 2}
+\label{sec:analisefase2}
+
+A segunda fase do projeto foi também dividida em três tarefas. A quarta tarefa
+que serve para definir o vetor velocidade do carro. A quinta tarefa é a que
+junta todas as fases criando o jogo em si. A sexta consistia em definir um bot
+para que ele pudesse tomar decisões num jogo em relação a que ação o carro deve
+tomar em cada instante. Além disso, é também nesta fase que o relatório prático
+se insere.
+
+A Tarefa 4 traduz-se na elaboração da função \texttt{atualiza} que consiste em
+atualizar o estado do jogo consoante uma acção tomada pelo jogador em questão.
+
+\begin{lstlisting}[language=Haskell]
+ atualiza :: Tempo -- a duracao da acao
+          -> Jogo  -- o estado do jogo
+          -> Int   -- o identificador do jogador
+          -> Acao  -- a acao tomada pelo jogador
+          -> Jogo  -- o estado atualizado do jogo
+\end{lstlisting}
+
+Esta função tem de substituir no jogo atual o carro do jogador pelo novo carro
+com o seu vetor velcidade atualizado assim como, atualizar as quantidades de
+nitro disponivel, assim como o histórico de posições pelas quais cada jogador
+passou.
+
+\begin{lstlisting}[language=Haskell]
+ data Jogo = Jogo
+  { mapa      :: Mapa         -- o mapa do percurso
+  , pista     :: Propriedades -- as propriedades do percurso
+  , carros    :: [Carro]      -- o estado do carro de cada jogador
+  , nitros    :: [Tempo]      -- as quantidades de nitro restantes
+  , historico :: [[Posicao]]  -- o historico de posicoes
+  }
+\end{lstlisting}
+
+No caso de a ação tomada pelo jogador incluir a aplicação de nitro a um outro
+jogador que não ele próprio, então o vetor do nitro tem de ser somado ao vetor
+velocidade do carro alvo. Isto implica a redução da quantidade de nitro na mesma
+do carro do jogador.
+
+A Tarefa 5 foi a tarefa mais livre, em que essencialmente se pretendia a união
+de todos as tarefas para a realização do jogo. O desenho dos mapas deve ser
+feito com o auxílio da Tarefa 1 e a validação dos mesmos com auxílio da Tarefa 2.
+Aqui entra a biblioteca Gloss para a criação da componente gráfica uma vez que
+esta nos fornece os tipo de dados \texttt{Picture} e \texttt{Event}.
+
+A Tarefa 6 tinha como objetivo a criação de regras que faziam a tomada de
+decisão um bot. Assim, para cada instante este devia decidir se devia acelerar,
+travar, virar à esquerda, virar à direita, aplicar nitro a si ou a um oponente.
+
+\begin{lstlisting}[language=Haskell]
+ bot :: Tempo  --  tempo decorrido desde a ultima decisao
+     -> Jogo   --  estado atual do jogo
+     -> Int    --  identificador do jogador dentro do estado
+     -> Acao   --  a decisao tomada pelo bot
+\end{lstlisting}
+
+O propósito do bot era participar num torneio com os restantes grupos de modo a
+concluir quais obtinham melhores resultados. O torneio pretendia ter várias
+fases onde ganharia o bot que desse primeiro uma volta ou então no fim de 60
+segundos, aquele que estivesse mais próximo. Cada jogador tinha direito a 5
+segundos de nitro.

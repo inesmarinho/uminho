@@ -1,0 +1,60 @@
+% =============================================================================
+% Student Name: Nelson Estevão                          Student Number: A76434
+% Student Name: Pedro Ribeiro                           Student Number: A85493
+% -----------------------------------------------------------------------------
+% Universidade do Minho
+% Escola de Engenharia - Departamento de Informática
+% Mestrado Integrado em Engenharia Informática
+% -----------------------------------------------------------------------------
+% Laboratórios de Informática I                          Ano Lectivo 2017/2018
+% Micro Machines
+% =============================================================================
+\documentclass[a4paper]{report}
+
+\usepackage{config}
+
+\title{Relatório Trabalho Prático LI1}
+\author{Grupo 138 \\ \\
+Nelson Estevão \ \ \ \ \ Pedro Ribeiro}
+\date{31 de Dezembro de 2017}
+% \date{\today}
+
+\begin{document}
+
+\begin{textblock}{5}(5.5,0)
+  \centering
+  \includegraphics[height=5cm]{EEUM_logo}
+\end{textblock}
+
+\maketitle
+
+\tableofcontents
+
+\listoffigures
+
+% \listoftables
+
+%______________________________________________________________________________
+%                                                                   Introdução
+\input{sections/introduction.tex}
+
+%______________________________________________________________________________
+%                            Análise de Requisitos e Especificação do Problema
+\input{sections/requirements.tex}
+
+%______________________________________________________________________________
+%                                            Descrição da Solução Desenvolvida
+\input{sections/solution.tex}
+
+%______________________________________________________________________________
+%                                                         Validação da Solução
+\input{sections/validation.tex}
+
+%______________________________________________________________________________
+%                                                                    Conclusão
+\input{sections/conclusion.tex}
+
+\bibliographystyle{natbib}
+\bibliography{references}
+
+\end{document}

@@ -1,0 +1,65 @@
+% encoding
+%------------------------------------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%------------------------------------------------------------------------------
+
+% language
+%------------------------------------------------------------------------------
+\usepackage[portuguese]{babel}
+%------------------------------------------------------------------------------
+
+% hyphenation rules
+%------------------------------------------------------------------------------
+\usepackage{hyphenat}
+\hyphenation{mate-mática recu-perar}
+%------------------------------------------------------------------------------
+
+% figures
+%------------------------------------------------------------------------------
+\usepackage{graphicx}
+\graphicspath{ {figures/} }
+\usepackage{subfig}
+%------------------------------------------------------------------------------
+
+% captions
+%------------------------------------------------------------------------------
+\usepackage[font=small,labelfont=bf]{caption}
+%\captionsetup{font={small,it}}
+%------------------------------------------------------------------------------
+
+% code snippets
+%------------------------------------------------------------------------------
+\usepackage{listings}
+\lstset{
+  inputencoding=utf8,
+  extendedchars=true,
+  backgroundcolor=\color{backcolour},
+  commentstyle=\color{codegreen},
+  keywordstyle=\color{codepurple},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{magenta},
+  basicstyle=\footnotesize,
+  breakatwhitespace=false,
+  breaklines=true,
+  captionpos=b,
+  keepspaces=true,
+  numbers=none, % options: left, right, none
+  numbersep=5pt,
+  showspaces=false,
+  showstringspaces=false,
+  showtabs=false,
+  tabsize=2
+}
+%------------------------------------------------------------------------------
+
+% colors
+%------------------------------------------------------------------------------
+\usepackage{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.95}
+%------------------------------------------------------------------------------
+
+\usepackage[absolute]{textpos}

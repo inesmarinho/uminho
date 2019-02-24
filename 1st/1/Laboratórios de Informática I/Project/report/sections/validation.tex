@@ -1,0 +1,36 @@
+\chapter{Validação da Solução}
+
+Durante todo o desenvolvimento o ghci tornou-se de extrema relevância para
+atestar o correcto funcionamento do nosso código. Em primeiro lugar, por
+verificar a cada vez tentamos interpretar o nosso código, o ghci nos dar
+mensagens de erro que impedem a construção de mais código por cima de funções
+implementadas de forma incorreta.
+
+Em cada tarefa contamos com o auxílio do sistema de \emph{feedback} que para
+as primeiras quatro tarefas existia a possibilidade de comparar através de
+testes definidos por nós os nossos resultados com os dos Docentes. Isto foi a
+parte fulcral para o sucesso dessas tarefas visto que muitos resultados que ao
+início poderiamos considerar corretos diferenciavam de alguma forma. Durante
+o desenvolvimento, foram sempre sendo pequenos testes feitos a cada função que
+era escrita e avaliado individualmente se o \emph{output} faria sentido.
+
+A validação da tarefa 5 teve duas fases: uma fase mais empírica e outra mais
+analítica. Tivemos uma primeira fase em que verificamos se os mapas estavam
+realmente bem desenhados, ou seja, se aparecia na janela do jogo aquilo que
+realmente estavamos à espera. Após testes com vários mapa achamos que estamos em
+condições de validar o método que tínhamos criado para a construção das imagens
+do jogo. Passada esta parte tivemos de validar uma função fulcral desta tarefa -
+a função \texttt{atualizaMovimenta} que recebe um novo jogo a cada frame de
+acordo com a Tarefa 4 e atualiza a posição do carro de acordo com a Tarefa 3.
+Fizemos testes com esta função e achamos estar em condições de a validar. É
+pertinente referir que esta função não produz resultados integralmente
+verdadeiros devido ao facto de a Tarefa 3 não estar completa e não considerar
+todos os casos possíveis. Assim fazemos uma validação consciente desta tarefa,
+reconhecendo que os mapas assim como os carros estão a ser bem desenhados embora
+a sua posição não esteja a ser atualizada com a maior correção.
+
+No que à Tarefa 6 diz respeito, verificamos que o nosso bot tem a capacidade de
+fazer qualquer percurso do início ao fim. No entanto, existem percursos em que
+as propriedades do jogo implicam um maior número de mortes o que nos dá uma
+pior prestação nessas pistas. Ainda assim, os nossos resultados nos torneiros
+indicavam uma posição favorável em relação à média dos restantes grupos.
