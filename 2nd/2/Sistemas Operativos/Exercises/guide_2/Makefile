@@ -11,7 +11,7 @@ BLD_DIR    = build
 SRC        = $(wildcard $(SRC_DIR)/*.c)
 OBJ        = $(patsubst $(SRC_DIR)/%.c,$(BLD_DIR)/%.o,$(SRC))
 DEPS       = $(patsubst $(BLD_DIR)/%.o,$(BLD_DIR)/%.d,$(OBJ))
-PROGRAM    = guide2
+PROGRAM    = program
 
 vpath %.c $(SRC_DIR)
 
@@ -28,11 +28,11 @@ $(BLD_DIR)/%.o: %.c
 $(BIN_DIR)/$(PROGRAM): $(DEPS) $(OBJ)
 	$(CC) $(CFLAGS) $(INCLUDES) -o $@ $(OBJ)
 
-run:
+run: $(BIN_DIR)/$(PROGRAM)
 	@./$(BIN_DIR)/$(PROGRAM)
 
 fmt:
-	@astyle --style=google -nr *.c,*.h
+	@uncrustify -c .uncrustify --no-backup $(SRC_DIR)/*.c
 
 lint:
 	@splint -retvalint -I $(SRC_DIR)/*.c,*.h
